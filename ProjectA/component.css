@@ -1,0 +1,70 @@
+body {
+    font-family: "Roboto", sans-serif;
+
+}
+body .login_cpt {
+    width: 433px;
+    height: 312px;
+    border: 2px solid #000;
+    outline:;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+body .login_cpt .login_text {
+    text-align: center;
+    width: 290px;
+    font-size: 24px;
+    color: #000;
+    font-weight: bolder;
+    height: 70px;
+    box-sizing: border-box;
+    margin: 90px 0 0 72px;
+}
+
+body .login_cpt a {
+    text-align: center;
+    display: inline-block;
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    margin: 51px 0 0 92px;
+    background-color: #F2B073;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+body .condition_cpt {
+    width: 433px;
+    height: 312px;
+    border: 2px solid #000;
+    outline:;
+    box-sizing: border-box;
+}
+body .condition_cpt .condition_text {
+    text-align: center;
+    width: 290px;
+    font-size: 24px;
+    color: #000;
+    font-weight: bolder;
+    height: 70px;
+    box-sizing: border-box;
+    margin: 90px 0 0 72px;
+}
+
+body .condition_cpt a {
+    text-align: center;
+    display: inline-block;
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    margin: 51px 0 0 92px;
+    background-color: #F2B073;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+
+}
