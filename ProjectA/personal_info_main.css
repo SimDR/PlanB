@@ -1,0 +1,116 @@
+html {
+  background-color: rgba(196, 196, 196, 0.4);
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  width: 602px;
+  height: 100;
+  margin: 0 auto;
+}
+
+body .box {
+  height: 20px;
+}
+.top_btn {
+  height: 60px;
+}
+.top_btn .back_btn {
+  float: left;
+  margin-left: 30px;
+}
+.top_btn .home_btn {
+  float: right;
+  margin-right: 30px;
+}
+
+body .top_btn a:first-child {
+  background: url(img/Group.png) no-repeat center / 20px 17.5px;
+  width: 20px;
+  height: 17.5px;
+  transform: translateY(100%);
+}
+body .top_btn a:last-child {
+  background: url(img/Vector.png) no-repeat 0 0 / 35.4px 33.4px;
+  width: 35.4px;
+  height: 33.4px;
+  transform: translateY(35%);
+}
+
+main h1 {
+  margin: 20px 0 16px 30px;
+  font-size: 24px;
+}
+.visual {
+  height: 50px;
+}
+
+body .main_baner {
+  background-color: rgba(196, 196, 196);
+  height: 151px;
+  width: 602px;
+  position: relative;
+}
+
+body .main_baner img {
+  margin: 18px 46.5px 20.3px 46.5px;
+  width: 117px;
+  height: 113px;
+}
+
+.main_baner .baner_icon p {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 22px;
+  width: 315px;
+  height: 100px;
+  color: #000;
+  vertical-align: middle;
+}
+.main_baner .baner_icon {
+  height: 151px;
+}
+
+.maintext p {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 50px 0 0 30px;
+}
+
+.chg_pass {
+  margin: 60px 0 0 30px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.chg_pass input {
+  width: 542px;
+  height: 30px;
+}
+.chg_pass label {
+  display: inline-block;
+  margin-bottom: 15px;
+}
+.chg_pass span {
+  color: #ff3d00;
+}
+footer {
+  font-size: 0;
+}
+footer a {
+  font-size: 24px;
+  display: inline-block;
+  width: 250px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background-color: #f2b073;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 21px;
+}
+footer .cnc_btn {
+  margin: 422px 37px 0 33px;
+}

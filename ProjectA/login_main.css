@@ -1,0 +1,175 @@
+/* Do it list
+1. Figma file => img,icon export
+2. default.css =>download
+3. make sprite img file
+4. font awesome = Roboto type download
+5. justify of Sass, color, font-size */
+
+/* banner */
+html {
+  background-color: rgba(196, 196, 196, 0.4);
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  width: 602px;
+  height: 100;
+  margin: 0 auto;
+}
+
+.visual {
+  height: 130px;
+}
+
+body .main_baner {
+  background-color: rgba(196, 196, 196);
+  height: 171px;
+}
+
+body .main_baner img {
+  margin-left: 46px;
+  margin-bottom: 71px;
+}
+
+.main_baner .baner_icon p {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 22px;
+  color: #000;
+  padding: 35px 61px 38px;
+}
+
+/* member_info_write */
+
+.wt_info {
+  padding: 0 30px;
+  margin-top: 80px;
+}
+
+.wt_info .make_id .id {
+  display: block;
+  font-size: 15px;
+  font-weight: bold;
+}
+.wt_info .make_id {
+  margin-bottom: 27px;
+  outline: none;
+  font-weight: bold;
+}
+
+.wt_info .make_password .pass {
+  display: block;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.wt_info .maintain {
+  margin-top: 30px;
+  color: #c4c4c4;
+}
+
+.wt_info .maintain:before {
+  content: "";
+  display: inline-block;
+  width: 31px;
+  height: 32px;
+  margin-right: 10px;
+  background: url("img/icon_login_uncheck.png") no-repeat 0 0 / 32px auto;
+  vertical-align: -11px;
+}
+.wt_info .maintain:hover:before {
+  content: "";
+  display: inline-block;
+  width: 31px;
+  height: 32px;
+  margin-right: 10px;
+  background: url("img/icon_login_check.png") no-repeat 0 0 / 32px auto;
+  vertical-align: -11px;
+}
+
+/* login / sign up, Btn */
+
+.wt_info .sign_member_btn {
+  display: block;
+  margin-bottom: 45px;
+  margin-top: 76px;
+  width: 542px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 3px;
+  background-color: #f2b073;
+}
+
+.wt_info .sign_member_btn a {
+  display: inline-block;
+  color: #fff;
+  font-size: 24px;
+  width: 200px;
+  height: 40px;
+}
+
+.wt_info .login_btn {
+  display: block;
+  width: 542px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 3px;
+  background-color: #f2b073;
+}
+
+.wt_info .login_btn a {
+  display: inline-block;
+  color: #fff;
+  font-size: 24px;
+  width: 200px;
+  height: 40px;
+}
+
+/* footer */
+
+footer {
+  display: inline-block;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  margin: 183px 0 20px 0;
+  background-color: rgba(196, 196, 196, 0.2);
+}
+
+footer .login_box .sns_login {
+  float: left;
+  margin-left: 30px;
+  font-weight: boldder;
+  color: #000;
+}
+footer .login_box .sns_icon {
+  float: right;
+  margin-right: 23px;
+}
+footer .login_box .sns_icon a {
+  display: inline-block;
+  margin: 0 25px;
+  width: 50px;
+  height: 50px;
+}
+
+footer .login_box .sns_icon a:nth-child(1) {
+  background: url("img/icon_login_kakao.png") no-repeat 0 0 / 40px 40px;
+  color: red;
+  transform: translateY(10%);
+  vertical-align: middle;
+}
+footer .login_box .sns_icon a:nth-child(2) {
+  background: url("img/icon_sns_facebook.png") no-repeat 0 0 / 40px 40px;
+  color: red;
+  transform: translateY(10%);
+  vertical-align: middle;
+}
+footer .login_box .sns_icon a:nth-child(3) {
+  background: url("img/icon_sns_google.png") no-repeat 0 0 / 40px 40px;
+  color: red;
+  transform: translateY(10%);
+  vertical-align: middle;
+}

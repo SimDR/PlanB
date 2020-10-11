@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=0, initial-scale=1.0" />
+    <link rel="stylesheet" href="default.css" />
+    <link rel="stylesheet" href="signup_main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>The New Plan</title>
+  </head>
+  <body>
+    <div class="write">
+      <div class="box">
+        <span class="hide">공백란</span>
+      </div>
+      <div class="top_btn">
+        <a href="" class="back_btn"> <span class="hide">뒤로가기</span></a>
+        <a href="" class="home_btn"> <span class="hide">홈</span></a>
+      </div>
+
+      <main>
+        <h1>회원가입</h1>
+        <label for="이메일">
+          <span class="star">*</span>
+          이메일</label
+        >
+        <input type="text" placeholder="이메일 주소를 입력해주세요."
+        name="이메일" id"이메일"="id"이메일""/>
+        <label for="비밀번호입력">
+          <span class="star">*</span>
+          비밀번호</label
+        >
+        <input
+          type="password"
+          placeholder="비밀번호를 입력해 주세요."
+          name="비밀번호입력"
+          id="비밀번호입력"
+        />
+        <label for="비밀번호 확인">
+          <span class="star">*</span>
+          비밀번호 확인</label
+        >
+        <input
+          type="password"
+          placeholder="비밀번호 확인"
+          name="비밀번호확인"
+          id="비밀번호확인"
+        />
+        <label for="이름">
+          <span class="star">*</span>
+          이름</label
+        >
+        <input type="text" placeholder="이름" name="이름" id="이름" />
+        <label for="휴대전화">
+          <span class="star">*</span>
+          휴대전화</label
+        >
+        <input
+          type="number"
+          placeholder="-없이 숫자로만 입력."
+          name="휴대전화"
+          id="휴대전화"
+        />
+        <label for="이름">생년월일</label>
+        <input
+          type="number"
+          placeholder="숫자로만 입력(예시:19890713"
+          name="생년월일"
+          id="생년월일"
+        />
+
+        <div class="check_jender">
+          <h3 class="h3">성별</h3>
+          <input type="radio" name="gender" id="남자" />
+          <label for="남자">남자</label>
+          <input type="radio" name="gender" id="여자" />
+          <label for="여자">여자</label>
+          <input type="radio" name="gender" id="선택안함" />
+          <label for="남자">선택안함</label>
+        </div>
+        <p class="condition">- 만 14세 이상만 가입할 수 있습니다.</p>
+        <div class="make_adress">
+          <p class="adress">주소</p>
+          <input type="text" placeholder="주소를 입력해 주세요." /
+          class="adress_write">
+          <a href="" class="find_adress"> <span class="find">주소찾기</span></a>
+          <input type="text" placeholder="상세주소(50자 이내)" />
+        </div>
+      </main>
+
+      <div class="agree">
+        <a href="a" class="check">
+          <p>만 14세 이상입니다.<span class="condition"> (필수)</span></p>
+        </a>
+        <a href="a" class="uncheck">
+          <p>약관에 모두 동의합니다.</p>
+        </a>
+      </div>
+      <a href="" class="total_sign_btn">가입하기</a>
+    </div>
+  </body>
+</html>

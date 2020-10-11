@@ -1,0 +1,139 @@
+/* Do it list
+1. Figma file => img,icon export
+2. default.css =>download
+3. make sprite img file
+4. font awesome = Roboto type download
+5. justify of Sass, color, font-size */
+
+/* banner */
+html {
+  background-color: rgba(196, 196, 196, 0.4);
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  width: 602px;
+  height: 100;
+  margin: 0 auto;
+}
+
+body .box {
+  height: 20px;
+}
+.top_btn {
+  height: 60px;
+}
+.top_btn .back_btn {
+  float: left;
+  margin-left: 40px;
+}
+
+body .top_btn a:first-child {
+  background: url("img/Group.png") no-repeat center / 20px 17.5px;
+  width: 20px;
+  height: 17.5px;
+  transform: translateY(100%);
+}
+
+.visual {
+  height: 50px;
+}
+
+body .main_baner {
+  background-color: rgba(196, 196, 196);
+  height: 151px;
+  width: 602px;
+  position: relative;
+}
+
+body .main_baner img {
+  margin: 18px 46.5px 20.3px 46.5px;
+  width: 117px;
+  height: 113px;
+}
+
+.main_baner .baner_icon p {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 22px;
+  width: 315px;
+  height: 100px;
+  color: #000;
+  vertical-align: middle;
+}
+.main_baner .baner_icon {
+  height: 151px;
+}
+
+.middle_section {
+  width: 602px;
+  height: 388px;
+}
+
+.middle_section img {
+  margin: 140px 0 0 104px;
+}
+.middle_section .img_text p {
+  display: inline-block;
+  vertical-align: bottom;
+  font-size: 24px;
+  color: #000;
+  font-weight: bold;
+
+  margin-left: 30px;
+}
+.btm_btn {
+  height: 305px;
+  margin-left: 30px;
+}
+.btm_btn .fir_btn {
+  width: 542px;
+  height: 50px;
+  line-height: 50px;
+  vertical-align: middle;
+  margin-bottom: 35px;
+  background-color: #f2b073;
+  border-radius: 5px;
+  text-align: center;
+}
+.btm_btn .fir_btn a {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.btm_btn .sec_btn {
+  color: #fff;
+  width: 542px;
+  height: 50px;
+  line-height: 50px;
+  vertical-align: middle;
+  margin-bottom: 35px;
+  background-color: #f2b073;
+  border-radius: 5px;
+  text-align: center;
+}
+.btm_btn .sec_btn a {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.btm_btn .thr_btn {
+  color: #fff;
+  width: 542px;
+  height: 50px;
+  line-height: 50px;
+  vertical-align: middle;
+  margin-bottom: 35px;
+  background-color: #f2b073;
+  border-radius: 5px;
+  text-align: center;
+}
+.btm_btn .thr_btn a {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}

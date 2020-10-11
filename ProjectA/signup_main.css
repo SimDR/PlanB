@@ -1,0 +1,153 @@
+/* Do it list
+1. Figma file => img,icon export
+2. default.css =>download
+3. make sprite img file
+4. font awesome = Roboto type download
+5. justify of Sass, color, font-size */
+
+/* banner */
+html {
+  background-color: rgba(196, 196, 196, 0.4);
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  width: 602px;
+  height: 100;
+  margin: 0 auto;
+}
+.write {
+  padding: 0 30px;
+}
+body .box {
+  height: 20px;
+}
+.top_btn {
+  height: 60px;
+}
+.top_btn .back_btn {
+  float: left;
+}
+.top_btn .home_btn {
+  float: right;
+}
+
+body .top_btn a:first-child {
+  background: url(img/Group.png) no-repeat center / 20px 17.5px;
+  width: 20px;
+  height: 17.5px;
+  transform: translateY(100%);
+}
+body .top_btn a:last-child {
+  background: url(img/Vector.png) no-repeat 0 0 / 35.4px 33.4px;
+  width: 35.4px;
+  height: 33.4px;
+  transform: translateY(35%);
+}
+
+main h1 {
+  margin: 20px 0 16px 0;
+  font-size: 24px;
+}
+main label {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.6);
+}
+main label .star {
+  color: #ff3d00;
+}
+main input {
+  margin: 8px 0 9px 0;
+}
+main .check_jender h3 {
+  margin: 25px 0 9px 0;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.check_jender input {
+  margin-right: 5px;
+}
+.check_jender label {
+  margin-right: 55px;
+  font-weight: bold;
+}
+
+.make_adress p {
+  margin: 23px 0 10px 0;
+  color: rgba(0, 0, 0, 0.6);
+}
+.make_adress input {
+  margin-bottom: 12px;
+}
+.make_adress .adress_write {
+  display: inline-block;
+  width: 421px;
+}
+.find_adress span {
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #f29c1f;
+  color: #f29c1f;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 14px;
+}
+
+.agree {
+  margin-top: 6px;
+  width: 100%;
+}
+
+.agree a p {
+  width: 310px;
+  height: 25px;
+  line-height: 25px;
+  font-size: 15px;
+  font-weight: initial;
+  background-color: rgba(196, 196, 196, 0.4);
+  border-radius: 5px;
+  margin-bottom: 25px;
+  padding: 16px 198px 16px 37px;
+}
+.agree .check p:before {
+  content: "";
+  display: inline-block;
+  background: url(img/jender_check_icon.png) no-repeat center / 16.5px 16.5px;
+  width: 16.5px;
+  height: 16.5px;
+  vertical-align: -3px;
+  margin-right: 12.5px;
+  margin-left: -30px;
+}
+.agree .check p span {
+  color: #f21f1f;
+}
+.agree .uncheck p:before {
+  content: "";
+  display: inline-block;
+  background: url(img/jender_uncheck_icon.png) no-repeat center / 16.5px 16.5px;
+  width: 16.5px;
+  height: 16.5px;
+  vertical-align: -3px;
+  margin-right: 12.5px;
+  margin-left: -30px;
+}
+
+.total_sign_btn {
+  display: inline-block;
+  margin: 15px 0 26px 0;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 5px;
+  color: #fff;
+  width: 542px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #f2b073;
+}
