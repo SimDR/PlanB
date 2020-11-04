@@ -1,0 +1,13 @@
+html {
+    background-color: #eee;
+  }
+  
+  
+  .container {
+    width: 601px;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: $color-button-main;
+    display: flex;
+    flex-direction: column;
+  }

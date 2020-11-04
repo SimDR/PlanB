@@ -1,0 +1,89 @@
+html {
+  background-color: #eee;
+}
+
+.container {
+  width: 601px;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.baner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 130px;
+  height: 151px;
+  background-color: #c4c4c4;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.baner img {
+  width: 117px;
+  height: 113px;
+  padding: 18px 0 0 47px;
+}
+
+.baner .baner-text {
+  color: #000;
+  width: 325px;
+  height: 78px;
+  font-weight: bold;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-right: 61px;
+  font-size: 22px;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+.member-info {
+  border: 1px solid blue;
+  height: 335px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.member-info .label {
+  border: 1px solid red;
+  font-size: 12px;
+  width: 518px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-left: -8px;
+  margin-top: 80px;
+}
+
+.member-info input {
+  width: 518px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.login-button {
+  height: 278px;
+  border: 1px solid red;
+}
+
+SNS-login {
+  border: 2px solid yellow;
+}
+/*# sourceMappingURL=New-project.css.map */

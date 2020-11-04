@@ -1,0 +1,26 @@
+// header(baner)
+
+.baner {
+    display:flex;
+    margin-top:130px;
+    height:151px;
+    background-color: $color-grey-dark;
+    justify-content: space-between;
+   
+img{
+    width:117px;
+    height:113px;
+    padding:18px 0 0 47px;
+   } 
+    
+.baner-text {
+    color:$color-text-third;
+    width: 325px;
+    height:78px;
+    font-weight: bold;
+    align-self:center;
+    margin-right: 61px;
+    font-size: 22px;
+    box-sizing: content-box;
+    }
+}
