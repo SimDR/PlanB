@@ -1,24 +1,59 @@
 .member-info {
-    border:1px solid blue;
-    height:335px;
-    display:flex;
-    flex-direction: column;
-}
+    @include flexDirection(flex,column);
+    height:270px;
 
-.member-info .label{
-    border:1px solid red;
-    font-size: 12px;
-    width:518px;
-    align-self:center;
-    margin-left:- 8px;
-    margin-top: 80px;
-    
-    
-}
 
-.member-info input{
-    width:518px;
-    align-self: center;
+    //기입란
+
+    & .label1, .label2{
+        @extend %member-info-form
+    }
+    
+    & .label1{
+        margin:50px 0 8px 0;
+    }
+
+    & .label2{
+        margin:0 0 8px 0;
+    }
+
+    & input{
+        @include FontsizeBold(12px, bold);
+        width:418px;
+        align-self:center;
+        margin-bottom: 30px;
+        padding:1px 0;
+        border:0;
+        border-bottom: 1px solid $color-text-third;
+        outline: none;
+        
+    
+        &::placeholder{
+            color:$color-text-third;
+            text-align: left;
+            margin:0;
+        }
+    }
+
+    //로그인 상태유지 버튼
+    & a{
+        @include FontsizeBold(10px, bold);
+        width:140px;
+        margin:-20px 0 0 25px;
+        text-align: center;
+        color:$color-grey-dark;
+        text-decoration: none;
+        
+        &::before{
+           background: url(images/icon_login_uncheck.png) no-repeat center / 20px auto;
+           @extend %login-maintain-button;
+        }  
+
+        &:hover::before{
+           background: url(images/icon_login_check.png) no-repeat center/ 20px auto;
+           @extend %login-maintain-button;
+        }
+    }
 }
 
 

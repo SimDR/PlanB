@@ -1,13 +1,14 @@
-@mixin FontsizeBgcolor($Fontsize, $Bgcolor) {
-  font-size: $Fontsize;
-  background-color: $Bgcolor;
-}
+
 
 @import "abstract/variables";
+@import "abstract/mixins";
 @import "layout/hybrid-web";
 @import "layout/header";
 @import "layout/main";
 @import "layout/button";
 @import "layout/footer";
 
+
+//typo
+@import "base/typo";
 

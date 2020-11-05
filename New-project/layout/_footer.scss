@@ -1,3 +1,31 @@
-SNS-login {
-    border: 2px solid yellow;
+
+.SNS-login{
+    @include flexDirection(flex,row);
+    height:50px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: $color-grey-light;
+
+    & .SNS-text{
+    @include FontsizeBold(13px,bold);
+    }
+
+    & .SNS-button a{
+    @include height-lineheight(40px,40px);
+    @include fontsize-width(0,40px);
+    margin-left:25px;
+    background: url(images/icon_login_kakao.png) no-repeat center / 40px auto;
+    text-decoration: none;
+    }
+    
+    & .SNS-button a:nth-child(2){
+    @extend %login-icon;
+    background: url(images/icon_sns_facebook.png) no-repeat center / 40px auto;
+     
+    }
+        
+    & .SNS-button a:nth-child(3){
+    @extend %login-icon;
+    background: url(images/icon_sns_google.png) no-repeat center / 40px auto;
+    }
 }
