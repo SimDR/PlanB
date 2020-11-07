@@ -1,14 +1,13 @@
-
-
+//
 @import "abstract/variables";
 @import "abstract/mixins";
 @import "layout/hybrid-web";
+
+// content
 @import "layout/header";
 @import "layout/main";
 @import "layout/button";
 @import "layout/footer";
 
-
 //typo
 @import "base/typo";
-

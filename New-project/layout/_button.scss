@@ -1,21 +1,20 @@
-.login-button{
-  @include flexDirection(flex,column);
+.login-button {
+  @include flexDirection(flex, column);
   align-items: center;
-  height:260px;
+  height: 350px;
 
-  
-  & a{
+  & a {
     @include WidthHeight(441px, 40px);
     @include FontsizeBold(15px, bold);
-    background-color:$color-orange-main;
-    color:$color-button-main;
+    background-color: $color-orange-main;
+    color: $color-button-main;
     line-height: 40px;
     text-align: center;
     border-radius: 5px;
     text-decoration: none;
-    }
+  }
 
-  & a:nth-child(1){
+  & a:nth-child(1) {
     margin-bottom: 30px;
   }
 }

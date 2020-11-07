@@ -1,47 +1,53 @@
-
-
 //Mixin
 
-@mixin flexDirection($flex,$direction){
-  display:$flex;
+@mixin flexDirection($flex, $direction) {
+  display: $flex;
   flex-direction: $direction;
 }
 
 @mixin FontsizeBold($Fontsize, $Bold) {
-    font-size: $Fontsize;
-    font-weight: $Bold;
-  }
-
-@mixin WidthHeight($Width, $Height){
-    width:$Width;
-    height:$Height;
+  font-size: $Fontsize;
+  font-weight: $Bold;
 }
 
-@mixin height-lineheight($height, $line-height){
-  height:$height;
+@mixin WidthHeight($Width, $Height) {
+  width: $Width;
+  height: $Height;
+}
+
+@mixin WidthLineHeight($Width, $LineHeight) {
+  width: $Width;
+  line-height: $LineHeight;
+}
+
+@mixin height-lineheight($height, $line-height) {
+  height: $height;
   line-height: $line-height;
 }
 
-@mixin fontsize-width($fontsize, $width){
+@mixin fontsize-width($fontsize, $width) {
   font-size: $fontsize;
-  width:$width;
+  width: $width;
+}
+@mixin fontsize-height($fontsize, $height) {
+  font-size: $fontsize;
+  height: $height;
+}
+//extend
+%member-info-form {
+  @include FontsizeBold(10px, bold);
+  width: 418px;
+  align-self: center;
 }
 
-  //extend
-%member-info-form{
-  @include FontsizeBold(10px,bold);
-    width:418px;
-    align-self:center;
+%login-maintain-button {
+  @include WidthHeight(31px, 32px);
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
 }
 
-%login-maintain-button{
-  @include WidthHeight(31px,32px);
-    content:"";
-    display:inline-block;
-    vertical-align: middle;
-}
-
-%login-icon{
-  @include height-lineheight(40px,40px);
-  @include fontsize-width(0,40px);
+%login-icon {
+  @include height-lineheight(40px, 40px);
+  @include fontsize-width(0, 40px);
 }

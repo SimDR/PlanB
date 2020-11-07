@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/scss/signup-main.css" />
+    <link rel="stylesheet" href="/css/default.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Plan A</title>
+  </head>
+  <body>
+    <!-- Navibar (Fix!!) -->
+    <div class="container">
+      <nav class="navi-bar">
+        <a href="#">뒤로가기</a>
+        <a href="#">홈</a>
+      </nav>
+      <!-- 회원가입 정부 기입란 -->
+
+      <main class="signup-info">
+        <h1>회원가입</h1>
+
+        <!-- 가입 입력란 -->
+        <label for="mail-adress"><span class="red">*</span> 이메일</label>
+        <input
+          type="text"
+          id="mail-adress"
+          placeholder="이메일 주소를 입력해 주세요."
+        />
+
+        <label for="password"><span class="red">*</span> 비밀번호</label>
+        <input
+          type="password"
+          placeholder="비밀번호를 입력해 주세요."
+          id="password"
+        />
+
+        <label for="re-password"
+          ><span class="red">*</span> 비밀번호 확인</label
+        >
+        <input
+          type="password"
+          placeholder="비밀번호를 다시한번 입력해 주세요."
+          id="re-password"
+        />
+
+        <label for="name"><span class="red">*</span> 이름</label>
+        <input type="text" id="name" placeholder="이름" />
+
+        <label for="phone-number"><span class="red">*</span> 휴대전화</label>
+        <input type="number" id="phone-number" placeholder="- 제외하고 입력" />
+
+        <label for="birthday">생년월일</label>
+        <input
+          type="number"
+          id="birthday"
+          placeholder="숫자로만 입력(예시: 19890713)"
+        />
+
+        <!-- 라디오버튼 -->
+        <p>성별</p>
+        <input type="radio" id="male" />
+        <label for="male">남자</label>
+
+        <input type="radio" id="female" />
+        <label for="female">여자</label>
+
+        <input type="radio" id="no-select" />
+        <label for="no-select">선택 안함</label>
+        <p>- 만 14세 이상만 가입할 수 있습니다.</p>
+
+        <label for="adress">주소</label>
+        <input type="text" id="adress" placeholder="주소를 입력해 주세요." />
+        <input type="text" id="adress" placeholder="상세주소(50자 이내)" />
+      </main>
+      <!-- !!!!!!!footer!!!!!!!!!! -->
+      <footer class="agree-section">
+        <a href="#" class="signup"
+          >만 14세 이상입니다. <span class="red">(필수)</span></a
+        >
+        <a href="#" class="signup">약관에 모두 동의 합니다.</a>
+        <a href="#" class="signup-btn">가입하기</a>
+      </footer>
+    </div>
+  </body>
+</html>

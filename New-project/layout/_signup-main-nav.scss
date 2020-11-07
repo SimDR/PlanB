@@ -1,0 +1,19 @@
+.container .navi-bar {
+  @include height-lineheight(60px, 60px);
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid red;
+  margin-top: 20px;
+  padding: 0 30px;
+
+  & a {
+    @include WidthLineHeight(40px, 60px);
+    text-decoration: none;
+    background: url(/images/Group.png) no-repeat center;
+    font-size: 0;
+
+    &:last-child {
+      background: url(/images/home.png) no-repeat center;
+    }
+  }
+}
