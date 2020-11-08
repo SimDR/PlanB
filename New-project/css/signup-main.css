@@ -1,0 +1,217 @@
+html {
+  background-color: #eee;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 500px;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container .navi-bar {
+  height: 60px;
+  line-height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20px;
+  padding: 0 30px;
+}
+
+.container .navi-bar a {
+  width: 40px;
+  line-height: 60px;
+  text-decoration: none;
+  background: url(/images/Group.png) no-repeat center;
+  font-size: 0;
+}
+
+.container .navi-bar a:last-child {
+  background: url(/images/home.png) no-repeat center;
+}
+
+.signup-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px 30px 0;
+}
+
+.signup-info h1 {
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 16px;
+}
+
+.signup-info label {
+  font-size: 12px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.signup-info label .red {
+  color: #f21f1f;
+}
+
+.signup-info input {
+  font-size: 15px;
+  height: 30px;
+  border: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 0;
+  margin-bottom: 9px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.signup-info input::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.3);
+  padding: 0;
+  font-size: 12px;
+}
+
+.signup-info input:-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.3);
+  padding: 0;
+  font-size: 12px;
+}
+
+.signup-info input::-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.3);
+  padding: 0;
+  font-size: 12px;
+}
+
+.signup-info input::placeholder {
+  color: rgba(0, 0, 0, 0.3);
+  padding: 0;
+  font-size: 12px;
+}
+
+.signup-info .jender {
+  font-size: 12px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 20px;
+}
+
+.signup-info .select-jender input {
+  vertical-align: middle;
+  margin: 0 5px 0 0;
+}
+
+.signup-info .select-jender label {
+  font-size: 15px;
+  line-height: 42px;
+  margin-right: 50px;
+}
+
+.signup-info .if {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 15px;
+}
+
+.signup-info .write-adress {
+  width: 321px;
+}
+
+.signup-info .adress-button {
+  width: 100px;
+  height: 30px;
+  color: #f2b073;
+  font-weight: bold;
+  line-height: 30px;
+  border: 1px solid #f2b073;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 11px;
+}
+
+.agree-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.agree-section a {
+  text-decoration: none;
+  width: 440px;
+  height: 50px;
+  margin-bottom: 25px;
+  line-height: 50px;
+  border-radius: 5px;
+}
+
+.agree-section .agree {
+  background-color: rgba(196, 196, 196, 0.4);
+  font-size: 12px;
+  color: #000;
+}
+
+.agree-section .agree:first-child {
+  margin-top: 12px;
+}
+
+.agree-section .agree:before {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  content: "";
+  -webkit-transform: translateY(3px);
+          transform: translateY(3px);
+  background: url(../images/jender_uncheck_icon.png) no-repeat center/15px auto;
+  margin: 0 8px 0 5px;
+}
+
+.agree-section .agree:hover::before {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  content: "";
+  -webkit-transform: translateY(3px);
+          transform: translateY(3px);
+  background: url(../images/jender_check_icon.png) no-repeat center/15px auto;
+  margin: 0 8px 0 5px;
+}
+
+.agree-section .agree .red {
+  color: #f21f1f;
+}
+
+.agree-section .signup-btn {
+  width: 440px;
+  height: 50px;
+  font-size: 22px;
+  font-weight: Bold;
+  color: #fff;
+  background-color: #f2b073;
+  text-align: center;
+}
+/*# sourceMappingURL=signup-main.css.map */

@@ -1,0 +1,118 @@
+html {
+  background-color: #eee;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 500px;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.baner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 60px;
+  height: 115px;
+  background-color: #c4c4c4;
+}
+
+.baner img {
+  width: 80px;
+  height: 83px;
+  padding: 15px 0 15px 70px;
+}
+
+.baner .baner-text {
+  font-size: 15px;
+  font-weight: 900;
+  width: 250px;
+  height: 70px;
+  color: #000;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  line-height: 23px;
+  margin-right: 30px;
+  font-family: "Roboto", sans-serif;
+}
+
+.member-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 388px;
+}
+
+.member-info img {
+  width: 100px;
+  height: 100px;
+}
+
+.member-info .welcome-text {
+  font-size: 22px;
+  font-weight: Bold;
+  color: #000;
+  margin: 0 0 -55px 32px;
+}
+
+.login-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 350px;
+}
+
+.login-button a {
+  width: 441px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #f2b073;
+  color: #fff;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.login-button a:nth-child(1) {
+  margin-bottom: 30px;
+}
+
+.login-button {
+  height: 300px;
+}
+
+.login-button a:nth-child(3) {
+  margin-top: 30px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+/*# sourceMappingURL=logon-main.css.map */

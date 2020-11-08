@@ -1,0 +1,16 @@
+.member-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 388px;
+
+  & img {
+    @include WidthHeight(100px, 100px);
+  }
+
+  & .welcome-text {
+    @include FontsizeBold(22px, Bold);
+    color: $color-text-forth;
+    margin: 0 0 -55px 32px;
+  }
+}

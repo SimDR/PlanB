@@ -1,4 +1,5 @@
-.member-info .label1, .member-info .label2 {
+.member-info .label1,
+.member-info .label2 {
   font-size: 10px;
   font-weight: bold;
   width: 418px;
@@ -27,10 +28,6 @@ html {
 }
 
 .container {
-  width: 500px;
-  height: 100vh;
-  margin: 0 auto;
-  background-color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -38,24 +35,28 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  width: 500px;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #fff;
 }
 
 .baner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 60px;
-  height: 115px;
-  background-color: #c4c4c4;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-top: 60px;
+  height: 115px;
+  background-color: #c4c4c4;
 }
 
 .baner img {
   width: 80px;
   height: 83px;
-  padding: 15px 0 0 70px;
+  padding: 15px 0 15px 70px;
 }
 
 .baner .baner-text {
@@ -69,7 +70,7 @@ html {
       align-self: center;
   line-height: 23px;
   margin-right: 30px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .member-info {
@@ -102,7 +103,6 @@ html {
   padding: 1px 0;
   border: 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  outline: none;
 }
 
 .member-info input::-webkit-input-placeholder {
@@ -140,11 +140,51 @@ html {
 }
 
 .member-info a::before {
-  background: url(images/icon_login_uncheck.png) no-repeat center/20px auto;
+  background: url(../images/icon_login_uncheck.png) no-repeat center/20px auto;
 }
 
 .member-info a:hover::before {
-  background: url(images/icon_login_check.png) no-repeat center/20px auto;
+  background: url(../images/icon_login_check.png) no-repeat center/20px auto;
+}
+
+.SNS-login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.SNS-login .SNS-text {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.SNS-login .SNS-button a {
+  height: 40px;
+  line-height: 40px;
+  font-size: 0;
+  width: 40px;
+  margin-left: 25px;
+  background: url(/images/icon_login_kakao.png) no-repeat center/40px auto;
+  text-decoration: none;
+}
+
+.SNS-login .SNS-button a:nth-child(2) {
+  background: url(/images/icon_sns_facebook.png) no-repeat center/40px auto;
+}
+
+.SNS-login .SNS-button a:nth-child(3) {
+  background: url(/images/icon_sns_google.png) no-repeat center/40px auto;
 }
 
 .login-button {
@@ -178,47 +218,7 @@ html {
   margin-bottom: 30px;
 }
 
-.SNS-login {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  height: 50px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  background-color: rgba(0, 0, 0, 0.1);
-}
-
-.SNS-login .SNS-text {
-  font-size: 13px;
-  font-weight: bold;
-}
-
-.SNS-login .SNS-button a {
-  height: 40px;
-  line-height: 40px;
-  font-size: 0;
-  width: 40px;
-  margin-left: 25px;
-  background: url(images/icon_login_kakao.png) no-repeat center/40px auto;
-  text-decoration: none;
-}
-
-.SNS-login .SNS-button a:nth-child(2) {
-  background: url(images/icon_sns_facebook.png) no-repeat center/40px auto;
-}
-
-.SNS-login .SNS-button a:nth-child(3) {
-  background: url(images/icon_sns_google.png) no-repeat center/40px auto;
-}
-
 body {
   font-family: 'Roboto', sans-serif;
 }
-/*# sourceMappingURL=New-project.css.map */
+/*# sourceMappingURL=login-main.css.map */

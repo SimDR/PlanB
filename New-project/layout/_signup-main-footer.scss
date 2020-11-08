@@ -1,0 +1,50 @@
+.agree-section {
+  @include flexDirection(flex, column);
+  align-items: center;
+
+  & a {
+    text-decoration: none;
+    @include WidthHeight(440px, 50px);
+    margin-bottom: 25px;
+    line-height: 50px;
+    border-radius: 5px;
+  }
+  & .agree {
+    background-color: $color-button-background;
+    font-size: 12px;
+    color: $color-text-forth;
+
+    &:first-child {
+      margin-top: 12px;
+    }
+    &:before {
+      @include WidthHeight(15px, 15px);
+      display: inline-block;
+      content: "";
+      transform: translateY(3px);
+      background: url(../images/jender_uncheck_icon.png) no-repeat center / 15px
+        auto;
+      margin: 0 8px 0 5px;
+    }
+    &:hover::before {
+      @include WidthHeight(15px, 15px);
+      display: inline-block;
+      content: "";
+      transform: translateY(3px);
+      background: url(../images/jender_check_icon.png) no-repeat center / 15px
+        auto;
+      margin: 0 8px 0 5px;
+    }
+    & .red {
+      color: $color-text-red;
+    }
+  }
+
+  & .signup-btn {
+    @include WidthHeight(440px, 50px);
+    @include FontsizeBold(22px, Bold);
+    color: $color-button-main;
+    background-color: $color-orange-main;
+    text-align: center;
+  }
+}

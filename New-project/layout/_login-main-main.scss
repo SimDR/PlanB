@@ -43,13 +43,14 @@
     text-decoration: none;
 
     &::before {
-      background: url(images/icon_login_uncheck.png) no-repeat center / 20px
+      background: url(../images/icon_login_uncheck.png) no-repeat center / 20px
         auto;
       @extend %login-maintain-button;
     }
 
     &:hover::before {
-      background: url(images/icon_login_check.png) no-repeat center/ 20px auto;
+      background: url(../images/icon_login_check.png) no-repeat center/ 20px
+        auto;
       @extend %login-maintain-button;
     }
   }

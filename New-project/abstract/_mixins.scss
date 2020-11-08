@@ -10,6 +10,11 @@
   font-weight: $Bold;
 }
 
+@mixin fontsize-color($fontsize, $color) {
+  font-size: $fontsize;
+  color: $color;
+}
+
 @mixin WidthHeight($Width, $Height) {
   width: $Width;
   height: $Height;
@@ -33,6 +38,18 @@
   font-size: $fontsize;
   height: $height;
 }
+
+@mixin fontsize-lineheight($fontsize, $lineweight) {
+  font-size: $fontsize;
+  line-height: $lineweight;
+}
+
+@mixin color-fontweight-lineheight($color, $fontweight, $lineheight) {
+  color: $color;
+  font-weight: $fontweight;
+  line-height: $lineheight;
+}
+
 //extend
 %member-info-form {
   @include FontsizeBold(10px, bold);

@@ -30,4 +30,36 @@
       font-size: 12px;
     }
   }
+  & .jender {
+    @include FontsizeBold(12px, bold);
+    color: $color-text-first;
+    margin-top: 20px;
+  }
+
+  & .select-jender input {
+    vertical-align: middle;
+    margin: 0 5px 0 0;
+  }
+
+  & .select-jender label {
+    @include fontsize-lineheight(15px, 42px);
+    margin-right: 50px;
+  }
+
+  & .if {
+    @include fontsize-color(12px, $color-text-first);
+    margin-bottom: 15px;
+  }
+  & .write-adress {
+    width: 321px;
+  }
+  & .adress-button {
+    @include WidthHeight(100px, 30px);
+    @include color-fontweight-lineheight($color-orange-main, bold, 30px);
+    border: 1px solid $color-orange-main;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 11px;
+  }
 }
