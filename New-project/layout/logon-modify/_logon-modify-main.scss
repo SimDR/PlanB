@@ -1,0 +1,14 @@
+.container .privacy {
+  @include color-fontweight-lineheight($color-text-forth, bold, none);
+  height: 152px;
+  padding: 50px 0 0 30px;
+}
+
+.container .signup-info {
+  & input {
+    margin: 0 30px;
+  }
+  & label {
+    margin: 0 30px;
+  }
+}

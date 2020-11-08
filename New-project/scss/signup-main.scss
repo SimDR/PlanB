@@ -1,7 +1,16 @@
+// default
 @import "../abstract/variables";
-@import "../layout/hybrid-web";
 @import "../abstract/mixins";
+@import "../layout/common/hybrid-web2";
+
+// content
+@import "../layout/signup-main/signup-main-nav";
+@import "../layout/signup-main/signup-main-main";
+@import "../layout/login-main/login-main-header";
+
+@import "../layout/signup-main/signup-main-footer";
+
+// button
+
+// 글꼴
 @import "../base/typo";
-@import "../layout/signup-main-nav";
-@import "../layout/signup-main-main";
-@import "../layout/signup-main-footer";

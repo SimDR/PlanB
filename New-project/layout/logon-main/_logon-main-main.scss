@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 388px;
+  height: 250px;
 
   & img {
     @include WidthHeight(100px, 100px);

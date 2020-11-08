@@ -1,0 +1,20 @@
+.container .small-button {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 493px;
+
+  & a {
+    @include color-fontweight-lineheight($color-button-main, bold, 50px);
+    @include fontsize-width-height(20px, 200px, 50px);
+    background-color: $color-orange-main;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+
+    &:first-child {
+      margin-right: 30px;
+    }
+  }
+}

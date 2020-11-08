@@ -1,7 +1,7 @@
 .login-button {
   @include flexDirection(flex, column);
   align-items: center;
-  height: 350px;
+  height: 200px;
 
   & a {
     @include WidthHeight(441px, 40px);

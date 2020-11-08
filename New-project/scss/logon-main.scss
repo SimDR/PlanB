@@ -1,13 +1,13 @@
 //mixin
 @import "../abstract/variables";
 @import "../abstract/mixins";
-@import "../layout/hybrid-web";
+@import "../layout/common/hybrid-web";
 
 // content
-@import "../layout/login-main-header";
-@import "../layout/logon-main-main";
-@import "../layout/button";
-@import "../layout/logon-main-footer-button";
+@import "../layout/login-main/login-main-header";
+@import "../layout/logon-main/logon-main-main";
+@import "../layout/common/button";
+@import "../layout/logon-main/logon-main-footer-button";
 
 //typo
 @import "../base/typo";

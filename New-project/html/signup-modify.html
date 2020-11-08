@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/signup-modify.css" />
+    <link rel="stylesheet" href="/css/default.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Plan A</title>
+  </head>
+  <body>
+    <!-- Navibar (Fix!!) -->
+    <div class="container">
+      <nav class="navi-bar">
+        <a href="#">뒤로가기</a>
+        <a href="#">홈</a>
+      </nav>
+      <!-- 회원가입 정부 기입란 -->
+
+      <main class="signup-info">
+        <h1>회원정보 수정</h1>
+        <header class="baner">
+          <img src="../images/icon_banner.png" alt="설명" />
+          <p class="baner-text">
+            중고거래의 새로운 혁신.<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;그동안 만나보지 못한 새로운<br />
+            형태의 중고거래를 만나보세요-!
+          </p>
+        </header>
+
+        <!-- 가입 입력란 -->
+        <label for="password" class="password"
+          ><span class="red">*</span> 비밀번호</label
+        >
+        <input
+          type="password"
+          placeholder="변경하실 비밀번호를 입력하여 주세요."
+          id="password"
+        />
+
+        <label for="re-password"
+          ><span class="red">*</span> 비밀번호 확인</label
+        >
+        <input type="password" placeholder="비밀번호 확인" id="re-password" />
+
+        <label for="phone-number"><span class="red">*</span> 휴대전화</label>
+        <input type="number" id="phone-number" placeholder="- 제외하고 입력" />
+
+        <!-- 주소찾기 -->
+        <label for="find-adress" class="adress">주소</label>
+        <div class="flow-adress">
+          <input
+            type="text"
+            id="find-adress"
+            class="write-adress"
+            placeholder="주소를 입력해 주세요."
+          />
+          <a href="#" class="adress-button"><span>주소찾기</span></a>
+        </div>
+        <input type="text" id="find-adress" placeholder="상세주소(50자 이내)" />
+      </main>
+      <footer class="small-button">
+        <a href="#">취&nbsp;&nbsp;소</a>
+        <a href="#">수&nbsp;&nbsp;정</a>
+      </footer>
+    </div>
+  </body>
+</html>

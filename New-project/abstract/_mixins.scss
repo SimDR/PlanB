@@ -39,6 +39,12 @@
   height: $height;
 }
 
+@mixin fontsize-width-height($fontsize, $width, $height) {
+  font-size: $fontsize;
+  width: $width;
+  height: $height;
+}
+
 @mixin fontsize-lineheight($fontsize, $lineweight) {
   font-size: $fontsize;
   line-height: $lineweight;
